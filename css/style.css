@@ -171,8 +171,7 @@ i {
 
 /* Mindset Styles */
 .mindset {
-  background-image: url("../images/watch.png");
-  background-color: #0400ff;
+  background-image: linear-gradient(to right, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('../images/watch.png');
   background-blend-mode: screen;
   border-radius: 8px;
 }
