@@ -53,6 +53,38 @@ img {
 }
 /* Main Styles */
 main {
-    max-width: 1140px;
-    margin: 0 auto;
-  }
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* Failure Styles */
+.failure-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 131px;
+}
+.failure-text {
+  margin-left: 87px;
+  margin-top: 130px;
+}
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.failure-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+.failure-icon {
+  margin-top: 16px;
+}
+.failure-icon,
+.failure-description {
+  margin-bottom: 8px;
+}
+i {
+  color: #008000;
+}
